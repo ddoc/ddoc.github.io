@@ -1,0 +1,14 @@
+# Site settings
+title: Brian Galura's personal website and blog
+email: bg@brian2.net 
+description: > # this means to ignore newlines until "baseurl:"
+  Assorted Linux and cloud infrastructure technical posts. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.brian2.net" 
+twitter_username: dd0c 
+github_username:  ddoc 
+
+exclude: ["Guardfile", "Gemfile", "Gemfile.lock"]
+
+# Build settings
+markdown: kramdown
