@@ -15,6 +15,6 @@ Pending approval.
 
   This site:
 
-  Nanoc + Bootstrap, 
-  https://github.com/ddoc/dd0c.net on github, and hosted on s3.
+  [Jekyll](http://jekyllrb.com/) + Bootstrap, [on GitHub](https://github.com/ddoc/ddoc.github.io ), and [hosted](http://ddoc.github.io) on [GitHub Pages](https://pages.github.com/). 
+ 
   
