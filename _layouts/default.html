@@ -23,77 +23,7 @@
     <script src='/scripts/dd0c.js' type='text/javascript'></script>
   </head>
   <body>
-    <nav class='navbar navbar-default navbar-fixed-top' id='header'>
-      <div class='container-fluid' id='header-container'>
-        <div class='navbar-header'>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a href='/'>
-            <img alt='Logo' class='pull-left' src='/images/smalllogo.png' width='75'>
-          </a>
-          <a class='navbar-brand' href='/' id='brand'>
-            Brian Galura
-          </a>
-        </div>
-        <div class='collapse navbar-collapse' id='navbar'>
-          <ul class='nav navbar-nav'>
-            <li class='dropdown'>
-              <a aria-expanded='false' aria-haspopup='true' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
-                Contact
-                <span class='caret'></span>
-              </a>
-              <ul class='dropdown-menu'>
-                <li>
-                  <script type="text/javascript">
-                  /* <![CDATA[ */
-                  function hivelogic_enkoder(){var kode=
-                  "kode=\"oked\\\"=rnhg%@,>**,=04wkqjohh1rg+nDwdufkh1rgBnwkqjohh1rg?n+l{.h@rg"+
-                  "\\\\n0u00,0+lDwdufkh1rg.n4,l.w+uDkd1fghnr.@~{5,.@>l4,k0jwhq1oghnr?+>l@3+lr"+
-                  "u>i**{@_>>%,**=,40kwjqho1hgrn+wDudkf1hgrnBkwjqho1hgrn?l+.{@hgrn\\\\,0u00+0"+
-                  "Dldwfuhkr1.g4nl,w.u+kD1dgfnh.r~@5{.,>@4lk,j0hw1qgonh?r>+@l+3rl>u*i{*_@_%>_"+
-                  "*,+*lqmr,1h+uvyhuh,1**w+olvsh1rg@nghnr____%___>rgxfhpwqz1luh%___+w________"+
-                  "#?____duki____@h________%_______________lp____dwo=rjeeCluqd15h____wq______"+
-                  "__%_______________l#____wow@_____h_________________%______________________"+
-                  "_________%____H_____Adpol2?A_____d_%____>_____,@____%___ghnr_@_%g_nh_r@%gh"+
-                  "nr>%rnhgn@gr1hsvlo+w**1,huhyvu+h1,rmql*+,*;\\\"=x''f;roi(0=i;k<do.eelgnhti"+
-                  ";++{)=cokedc.ahCrdoAe(t)i3-i;(f<c)0+c1=82x;=+tSirgnf.orCmahCrdo(e)ck}do=ex"+
-                  "\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)"+
-                  "}kode=x+(i<kode.length?kode.charAt(kode.length-1):'');"
-                  ;var i,c,x;while(eval(kode));}hivelogic_enkoder();
-                  /* ]]> */
-                  </script>
-                </li>
-                <li>
-                  <a href="tel:+1-310-651-6348">Phone</a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/briangalura">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/dd0c">Twitter</a>
-                </li>
-              </ul>
-            </li>{% for page in site.pages %}{% if page.title %}
-            <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </li>{% endif %}{% endfor %}
-            <li>
-              <a href='https://github.com/ddoc/'>GitHub</a>
-            </li>
-            <li>
-              <a href='https://flipboard.com/@ddoc/'>Flipboard</a>
-            </li>
-            <li class='last'>
-              <a href='http://goo.gl/39Iuw'>CV/R&eacute;sum&eacute;</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+{% include nav.html %}
     <div class='container'>
       <div>
         <div class='row'>
