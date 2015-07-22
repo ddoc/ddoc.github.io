@@ -33,5 +33,3 @@ Skills:
 * Disaster recovery process implementation.
 * Installation and configuration of new hardware.
 * Installation of third party software packages.
-
-

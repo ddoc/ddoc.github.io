@@ -18,4 +18,3 @@ __This site:__
 
   [Jekyll](http://jekyllrb.com/) + Bootstrap, [on GitHub](https://github.com/ddoc/ddoc.github.io ), and [hosted](http://ddoc.github.io) on [GitHub Pages](https://pages.github.com/). 
  
-  
