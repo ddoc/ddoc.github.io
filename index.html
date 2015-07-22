@@ -2,7 +2,6 @@
 layout: default
 ---
 
-          <div class="col-md-9 col-sm-12">
             <h1>Articles</h1>
             {% for post in site.posts %}
             <div class="post">
@@ -15,5 +14,4 @@ layout: default
             </div>
             {% endfor %}
             <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-          </div>
 

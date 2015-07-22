@@ -78,9 +78,9 @@
                 </li>
               </ul>
             </li>{% for page in site.pages %}{% if page.title %}
-               <li>
-                 <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-               </li>{% endif %}{% endfor %}
+            <li>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>{% endif %}{% endfor %}
             <li>
               <a href='https://github.com/ddoc/'>GitHub</a>
             </li>
@@ -97,7 +97,9 @@
     <div class='container'>
       <div>
         <div class='row'>
+          <div class='col-md-9 col-sm-12'>
 {{ content }}
+          </div>
           <div class='col-md-3 hidden-sm hidden-xs'>
             <div id='sidebar'>
               <ul class='nav nav-pills nav-stacked'>

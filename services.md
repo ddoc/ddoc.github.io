@@ -4,7 +4,12 @@ title: Services
 permalink: /services/
 ---
 
-I will engage in hourly and flat-cost projects starting at US$125/hour. Please [email](mailto:bg@brian2.net) me for a quote.
+I will engage in hourly and flat-cost projects starting at US$125/hour. Please 
+<script type="text/javascript">
+                  /* <![CDATA[ */
+                  hivelogic_enkoder();
+                  /* ]]> */
+</script> me for a quote.
 
 Some successful projects include: 
 
