@@ -84,6 +84,8 @@ GEM
       coffee-script (~> 2.2)
     jekyll-feed (0.3.0)
     jekyll-gist (1.2.1)
+    jekyll-last-modified-at (0.3.4)
+      jekyll
     jekyll-mentions (0.2.1)
       html-pipeline (~> 1.9.0)
       jekyll (~> 2.0)
@@ -157,6 +159,7 @@ DEPENDENCIES
   github-pages
   guard-jekyll-plus
   jekyll
+  jekyll-last-modified-at
 
 BUNDLED WITH
    1.10.5

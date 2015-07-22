@@ -8,6 +8,7 @@ layout: default
   </h4>
 </div>
 {{ content }}
+<!-- 
 <div id="fb-root"></div>
 <script>
   
@@ -23,12 +24,14 @@ layout: default
   }());
 
 </script>
+%fb:comments{:href=>"www.brian2.net#{@item.path}",:num_posts=>"5",:width=>"500"} 
+-->
 <div id="disqus_thread"></div>
 <script>
   
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
   var disqus_shortname = 'brian2'; // required: replace example with your forum shortname
-  var disqus_identifier = ' @item[:title] ';
+  var disqus_identifier = ' {{ page.title }} ';
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function() {
@@ -60,6 +63,6 @@ layout: default
   }());
 
 </script>
-<!-- %fb:comments{:href=>"www.brian2.net#{@item.path}",:num_posts=>"5",:width=>"500"} -->
+
     
 

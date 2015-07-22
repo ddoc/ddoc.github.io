@@ -12,3 +12,6 @@ exclude: ["Guardfile", "Gemfile", "Gemfile.lock"]
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-last-modified-at
