@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 ---
 
-I will engage in hourly and flat-cost projects starting at US$125/hour. Please 
+I will engage in hourly and flat-cost projects. Please 
 <script type="text/javascript">
                   /* <![CDATA[ */
                   hivelogic_enkoder();
