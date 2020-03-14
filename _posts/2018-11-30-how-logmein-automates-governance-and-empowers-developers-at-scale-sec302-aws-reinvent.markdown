@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2020-11-30
+date:   2018-11-30
 title: "How LogMeIn Automates Governance and Empowers Developers at Scale (SEC302) - AWS re:Invent 2018"
 permalink: "posts/brian_galura_reinvent_2018"
 ---
