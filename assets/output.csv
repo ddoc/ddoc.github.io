@@ -345,7 +345,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1f
+v2,AvailabilityZones,us-east-1a us-east-1b us-east-1f
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -409,7 +409,7 @@ v2,InstanceType,t3.medium
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
 v2,ApiMemory,256
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,BuildInstance,t3.small
@@ -478,7 +478,7 @@ v2,IMDSHttpTokens,required
 v2,InstanceType,m6i.2xlarge
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1d,us-east-1c,us-east-1b
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,0
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -546,7 +546,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,t3.small
 v2,SubnetPrivate1CIDR,192.168.11.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,BuildInstance,t3.small
@@ -612,7 +612,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,BuildInstance,t3.small
@@ -1908,7 +1908,7 @@ v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
 v2,BuildInstancePolicy,
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -1979,7 +1979,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,m5.xlarge
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,128
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -2039,7 +2039,7 @@ v2,InstanceType,t3.small
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
 v2,ApiMemory,256
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,BuildInstance,t3.small
 v2,InstanceSecurityGroup,
@@ -2106,7 +2106,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -2177,7 +2177,7 @@ v2,IMDSHttpTokens,optional
 v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1c
+v2,AvailabilityZones,us-east-1redacted
 v2,BuildCpu,256
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
@@ -2250,7 +2250,7 @@ v2,InstanceType,t3.large
 v2,SubnetPrivate1CIDR,10.0.5.0/24
 v2,Password,****
 v2,BuildInstancePolicy,
-v2,AvailabilityZones,us-east-1a,us-east-1b,us-east-1f
+v2,AvailabilityZones,us-east-1a us-east-1b us-east-1f
 v2,BuildCpu,0
 v2,HighAvailability,true
 v2,DefaultAmiArm,/aws/service/ecs/optimized-ami/amazon-linux-2/arm64/recommended/image_id
